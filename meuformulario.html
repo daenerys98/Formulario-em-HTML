@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Site</title> 
+    </head>      
+    <body>
+        <h1>Meu Formulário</h1>
+        <p>Este é um formulario de exemplo</p>
+        <form action="post" enctype="multipart/form-data">
+            <div>
+                <label for="">Nome</label>
+                <input name="" required="required" placeholder="Digite seu nome" type="text">
+            </div>
+
+            <div>
+                <label for="">E-mail</label>
+                <input name="" required="required" placeholder="Digite seu e-mail" type="text">
+            </div>
+
+            <div>
+                <label for="">Cidade</label>
+                <select required="required" name="cidade">
+                    <option selected="selected" value="">Selecione</option>
+                    <option value="1">Belo Horizonte</option>
+                    <option value="2">Rio de Janeiro</option>
+                    <option value="3">Rio Grande do Norte</option>
+            </select>        
+            </div>
+
+            <div>
+                <label for="">Sua Foto</label>
+                <input required="required" name="foto" type="file">
+            </div>
+
+            <div>
+                <p>Selecione seu sexo:</p>
+                <label for="sexo1"><input name="sexo" id="sexo1"value="m"type="radio"> Masculino</label>
+                <label for="sexo2"><input name="sexo" id="sexo2"value="f"type="radio"> Feminino</div></label>
+            </div>
+
+            <div>
+                <label for="">Biografia</label>
+                <textarea name="biografia" required="required" placeholder="Digite sua biografia" cols = "30 
+            "    rows="5"></textarea>
+            </div>
+
+            <div>
+                <label for="">Senha</label>
+                <input required="required" placeholder="Digite sua senha" name="senha" type="password">
+            </div>
+
+            <div>
+                <label for="noticias">
+                    <input name="newslatter" id="noticias" type="checkbox">
+                    Deseja r-eceber e-mails promocionais e noticias?</label>
+            </div>
+
+            <div>
+                <button name="enviar" value="1" type="submit">Enviar</button>
+            </div>
